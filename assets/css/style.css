@@ -168,4 +168,5 @@ nav a:hover{
 	footer{
 		background-color:darkseagreen;
 		grid-area: footer;
+		background-image: linear-gradient(to left, purple, pink);
 	}
