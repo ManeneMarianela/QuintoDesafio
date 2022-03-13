@@ -113,7 +113,12 @@ nav a:hover{
 	text-align: left;
 	line-height: 3rem;
 	text-align: center;
+	animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
 }
+
+ 
 .tarjeta{
 	width: auto;
 	height: auto;
@@ -132,6 +137,19 @@ nav a:hover{
 	line-height: 3rem;
 	text-align: center;
 }
+.textoprincipal{
+	animation-duration: 4s;
+	animation-name: aparecer;
+	animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+ }
 .h3{
 	color: darkgreen;
 	font-family: 'Redressed', cursive;
@@ -155,6 +173,7 @@ nav a:hover{
 	font-family: 'Redressed', cursive;
     font-family: 'Roboto', sans-serif;
 }
+
 /*mobile*/
 @media (max-width: 991.98px) {
 	flex-direction: column;
