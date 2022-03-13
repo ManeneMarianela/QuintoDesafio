@@ -13,6 +13,15 @@
 	justify-content: end;
 }
 .nav{
+	transition: all 3s;
+}
+nav:hover {
+	height: 100px; width: auto;
+	padding: 10px;
+	background-color: purple;
+ }
+ 
+.nav{
 	background-color: darksalmon;
 }
 .navrespontrabajo{
@@ -137,8 +146,9 @@ nav a:hover{
 	background-position: 100%;
 	text-align: center;
 	color: aquamarine;
-	
+
 }
+
 .pie{
 	justify-content: space-between;
 	background-color: bisque;
