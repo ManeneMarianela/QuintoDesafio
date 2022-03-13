@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li{
+	display: inline-block;
+	margin-right: 11rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	align-items: center;
+	justify-content: end;
+}
+.nav{
+	background-color: darksalmon;
+}
+.navrespontrabajo{
+	background-color: darksalmon;
+}
+.navrespontrabajo{
+	align-items: center;
+	justify-content: end;
+	padding: 2rem;
+}
+.navrespontestimonios{
+	background-color:darksalmon;
+}
+.navrespontestimonios{
+	align-items: center;
+	justify-content: end;
+	padding: 2rem;
+}
+.navresponcontacto{
+	background-color: darksalmon;
+}
+.navresponcontacto{
+	align-items: center;
+	justify-content: end;
+	padding: 2rem;
+}
+a{
+	text-decoration: none;
+}
+.nav a {
+	color: black;
+	font-weight: 700;
+}
+.navrespontrabajo a{
+	color: black;
+	font-weight: 700;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	align-items: center;
+}
+.navrespontestimonios a{
+	color: black;
+	font-weight: 700;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	align-items: center;
+}
+.navresponcontacto a{
+	color: black;
+	font-weight: 700;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	align-items: center;
+}
+
+nav a:hover{
+	color: bisque;
+}
+.navrespontrabajo a:hover{
+	color: bisque;
+}
+.navrespontestimonios a:hover{
+	color: bisque;
+}
+.navresponcontacto a:hover{
+	color: bisque;
+}
+.imagengrande{
+	/*background-image: url(../imgs/imagenpc.jpg);*/
+	margin-top: 1rem;
+	padding-top: 1rem;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+/*main de trabajos*/	 
+.textoprincipaltrabajos{
+	color: darkslategrey;
+	font-size: large;
+	font-weight: 500;
+	font-family: 'Redressed', cursive;
+	text-align: left;
+	line-height: 3rem;
+	text-align: center;
+}
+.tarjeta{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	align-items: center;
+	grid-area: main;
+}	
+.textoprincipal{
+	color: darkslategrey;
+	font-size: large;
+	font-weight: 500;
+	font-family: 'Redressed', cursive;
+    font-family: 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 3rem;
+	text-align: center;
+}
+.h3{
+	color: darkgreen;
+	font-family: 'Redressed', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.imagenrostro{
+	margin-right: 16rem;
+}
+.imagfondo{
+	background: url(https://www.consumer.es/wp-content/uploads/2019/07/img_fondo-pantalla-wallpaper-art.jpg);
+	background-size: cover;
+	background-position: 100%;
+	text-align: center;
+	color: aquamarine;
+	
+}
+.pie{
+	justify-content: space-between;
+	background-color: bisque;
+	font-family: 'Redressed', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+/*mobile*/
+@media (max-width: 991.98px) {
+	flex-direction: column;
+	}
+	header{
+		background-color: coral;
+		grid-area: header;
+	}
+	main{
+		background-color: coral;
+		grid-area: main;
+	}
+	.textoprincipaltrabajos{
+		background-color: coral;
+		grid-area: main;
+	}
+	.tarjeta{
+		grid-area: main;
+	}
+	
+	footer{
+		background-color:darkseagreen;
+		grid-area: footer;
+	}
